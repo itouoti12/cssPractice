@@ -1,5 +1,10 @@
 
-@import 'css-wipe';
+@import url('../../../node_modules/css-wipe/border-box.css');
+@import url('../../../node_modules/css-wipe/form.css');
+@import url('../../../node_modules/css-wipe/index.css');
+@import url('../../../node_modules/css-wipe/list.css');
+@import url('../../../node_modules/css-wipe/reset.css');
+@import url('../../../node_modules/css-wipe/webkit.css');
 
 body {
     color: #222;

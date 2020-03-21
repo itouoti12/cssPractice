@@ -1,0 +1,195 @@
+.btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+.btn--arrow-right {
+  position: relative;
+  padding-right: 2em;
+  padding-left: 1.38em;
+}
+
+.btn--arrow-right::after {
+  content: "\f061";
+  position: absolute;
+  top: 50%;
+  right: 0.83em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  transform: translateY(-50%);
+}
+
+.btn--large {
+  width: 340px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.375rem;
+}
+
+.btn--warning {
+  background-color: #f1de00;
+  color: #222;
+}
+
+.btn--warning:focus,
+.btn--warning:hover {
+  border-color: #f1de00;
+  color: #222;
+}
+
+.rounded-btn {
+  display: inline-block;
+  width: 236px;
+  max-width: 100%;
+  padding: 15px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  border-bottom-color: #d40152;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.rounded-btn:focus,
+.rounded-btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+.before-icon-btn {
+  position: relative;
+  display: inline-block;
+  padding: 0.2em 0.3em;
+  border: 1px solid currentColor;
+  color: #e25c00;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.before-icon-btn:focus,
+.before-icon-btn:hover {
+  background-color: #e25c00;
+  color: #fff;
+}
+
+.before-icon-btn::before {
+  display: inline-block;
+  margin-right: 0.5em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.before-icon-btn--download::before {
+  content: "\f019";
+}
+
+.before-icon-btn--zoom::before {
+  content: "\f00e";
+  transform: translateY(-6%);
+}
+
+.before-icon::before {
+  display: inline-block;
+  margin-right: 0.3em;
+  color: #e25c00;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+}
+
+.before-icon--pdf::before {
+  content: "\f1c1";
+}
+.before-icon--excel::before {
+  content: "\f1c3";
+}
+.before-icon--power-point::before {
+  content: "\f1c4";
+}
+.before-icon--check-square::before {
+  content: "\f14a";
+}
+
+.before-icon--chevron-left::before {
+  content: "";
+  width: 0.375em;
+  height: 0.375em;
+  border-bottom: 0.125em solid #e25c00;
+  border-left: 0.125em solid #e25c00;
+  transform: rotate(45deg) translateY(-30%);
+}
+
+.after-icon::after {
+  display: inline-block;
+  margin-left: 0.3em;
+  color: #e25c00;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+}
+
+.after-icon--chevron-right::after {
+  content: "";
+  width: 0.375em;
+  height: 0.375em;
+  border-top: 0.125em solid #e25c00;
+  border-right: 0.125em solid #e25c00;
+  transform: rotate(45deg) translateY(-30%);
+}
+
+.label {
+    display: inline-block;
+    padding: .2em .3em;
+    background-color: #e25c00;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: bold;
+    
+    border: 2px solid transparent
+}
+
+.label--warning {
+    background-color: #f1de00;
+    color: #000;
+}
+
+.label--link {
+    text-decoration: none;
+    transition: .25s;
+}
+
+.label--link:focus,
+.label--link:hover {
+    background-color: #fff;
+    border-color: currentColor;
+    color: #e25c00;
+}
+
+.rounded-label {
+    display: inline-block;
+    padding: .3em .9em;
+    background-color: #e25c00;
+    border-radius: 1em;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: bold;
+}
