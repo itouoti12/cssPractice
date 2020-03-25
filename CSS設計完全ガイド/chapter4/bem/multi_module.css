@@ -27,6 +27,19 @@
     font-weight: bold;
 }
 
+.media--reverse {
+    flex-direction: row-reverse;
+}
+
+.media--reverse .media__img-wrapper {
+    margin-right: 0;
+}
+
+.media--reverse .media__body {
+    margin-right: 3.33333%;
+    text-align: right;
+}
+
 @media screen and (max-width: 768px) {
     .media {
         display: block;
@@ -35,5 +48,9 @@
     .media__img-wrapper {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .media--reverse .media__body {
+        margin-right: 0;
     }
 }
