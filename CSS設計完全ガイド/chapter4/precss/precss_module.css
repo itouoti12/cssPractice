@@ -234,3 +234,34 @@ a.el_label:hover {
 
 
 
+.el_lv3Heading {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e25c00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.el_lv4Heading {
+  padding-left: 6px;
+  border-left: 2px solid #e25c00;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.el_lv5Heading {
+  color: #e25c00;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.el_lv6Heading {
+  font-size: 1.125rem;
+}
+
+.el_caution {
+  color: #d40152;
+}
+
+.el_note {
+  font-size: .75rem;
+}
