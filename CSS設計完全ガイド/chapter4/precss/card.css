@@ -32,3 +32,55 @@
 .bl_card_txt {
     color: #777;
 }
+
+.bl_card_badge {
+    position: relative;
+}
+
+.bl_card_badge::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-width: 3.75rem 3.75rem 0 0;
+    border-style: solid;
+    border-color: #e25c00 transparent transparent transparent;
+}
+
+.bl_card_badge_txt {
+    position: absolute;
+    z-index: 2;
+    top: .5rem;
+    left: .3125rem;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: bold;
+    transform: rotate(-45deg);
+}
+
+a.bl_card {
+    display: block;
+    color: currentColor;
+    text-decoration: none;
+    transition: .25s;
+}
+
+a.bl_card .bl_card_ttl {
+    transition: .25s;
+}
+
+a.bl_card:focus,
+a.bl_card:hover {
+    opacity: .75;
+}
+
+a.bl_card:focus .bl_card_ttl,
+a.bl_card:focus .bl_card_txt,
+a.bl_card:hover .bl_card_ttl,
+a.bl_card:hover .bl_card_txt {
+    color: #e25c00;
+    text-decoration: underline;
+}
