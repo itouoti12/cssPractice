@@ -101,7 +101,18 @@
     margin-bottom: 20px;
 }
 
-.cards--col4 > .cards__item:nth-of-type(4n) {
+.cards--col4 > .cards__item:nth-of-type(4n),
+.cards--col3 > .cards__item:nth-of-type(4n){
+    margin-bottom: -30px;
+}
+
+.cards--col3 > .cards__item {
+    width: 31.707%;
+    margin-right: 2.43902%;
+    margin-bottom: 30px;
+}
+
+.cards--col3 > .cards__item:nth-of-type(3n) {
     margin-right: 0;
 }
 
