@@ -84,3 +84,34 @@ a.bl_card:hover .bl_card_txt {
     color: #e25c00;
     text-decoration: underline;
 }
+
+.bl_cardUnit {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bl_cardUnit.bl_cardUnit__col4 {
+    margin-bottom: -20px;
+}
+
+.bl_cardUnit__col4 > .bl_card {
+    width: 23.78%;
+    margin-right: 1.62602%;
+    margin-bottom: 20px;
+}
+
+.bl_cardUnit__col4 > .bl_card:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .bl_cardUnit.bl_cardUnit__col4 {
+        margin-bottom: -20px;
+    }
+
+    .bl_cardUnit > .bl_card {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
