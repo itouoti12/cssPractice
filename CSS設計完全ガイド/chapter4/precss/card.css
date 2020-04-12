@@ -90,6 +90,10 @@ a.bl_card:hover .bl_card_txt {
     flex-wrap: wrap;
 }
 
+.bl_cardUnit.bl_cardUnit__col3 
+{
+    margin-bottom: -30px;
+}
 .bl_cardUnit.bl_cardUnit__col4 {
     margin-bottom: -20px;
 }
@@ -100,10 +104,6 @@ a.bl_card:hover .bl_card_txt {
     margin-bottom: 20px;
 }
 
-.bl_cardUnit__col4 > .bl_card:nth-of-type(4n),
-.bl_cardUnit__col3 > .bl_card:nth-of-type(3n) {
-    margin-bottom: -30px;
-}
 
 .bl_cardUnit__col3 > .bl_card {
     width: 31.707%;
@@ -111,9 +111,10 @@ a.bl_card:hover .bl_card_txt {
     margin-bottom: 30px;
 }
 
+.bl_cardUnit__col4 > .bl_card:nth-of-type(4n),
 .bl_cardUnit__col3 > .bl_card:nth-of-type(3n) {
     margin-right: 0;
-}
+} 
 
 @media screen and (max-width: 768px) {
     .bl_cardUnit.bl_cardUnit__col4 ,
